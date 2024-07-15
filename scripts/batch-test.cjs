@@ -16,7 +16,7 @@ var argv = require('yargs')
     .parserConfiguration({
         "parse-numbers": false,
     })
-    .default('contract', '0x8042470214C92b938F723E3F0aa067fb299E19b3')
+    .default('contract', '0x3d6cf677C5D6f59d9226dA479E6B8567E57Ea672')
     .default('abi', './build/contract/Counter.abi')
     .default('method', 'increment')
     .argv;
